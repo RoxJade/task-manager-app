@@ -12,9 +12,10 @@
 
 .datepicker-done,
 .datepicker-cancel,
+.datepicker-clear,
 .select-dropdown li>span,
 .is-today {
-    color: #607d8b !important
+    color: #ef9a9a !important
 }
 
 td.is-selected,
