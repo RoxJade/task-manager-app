@@ -5,3 +5,32 @@
 .flashes h4 {
     line-height: 2;
 }
+
+.datepicker-date-display  {
+    background-color: #ef9a9a;
+}
+
+.datepicker-done,
+.datepicker-cancel,
+.select-dropdown li>span,
+.is-today {
+    color: #607d8b !important
+}
+
+td.is-selected,
+.month-prev:active,
+.month-prev:focus,
+.month-next:active,
+.month-next:focus {
+    background-color: #607d8b !important
+}
+
+.switch label .lever {
+   background-color: #607d8b70;
+}
+.switch label input[type=checkbox]:checked+.lever {
+   background-color: #ef9a9a;
+}
+.switch label input[type=checkbox]:checked+.lever:after {
+   background-color: #ef9a9a;
+}
