@@ -113,6 +113,9 @@ def add_task():
         flash("Task Successfully Added")
         return redirect(url_for("get_tasks"))
 
+    categories = mongo.db.categories.find().sort("category_name", 1)
+    return render_template("add_task.html", categories=categories)
+
 
 @app.route("/edit_task/<task_id>", methods=["GET", "POST"])
 def edit_task(task_id):
