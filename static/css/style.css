@@ -35,3 +35,12 @@ td.is-selected,
 .switch label input[type=checkbox]:checked+.lever:after {
    background-color: #ef9a9a;
 }
+
+.btn-small {
+    margin: 5px;
+}
+
+.collapsible-header .col strong {
+    margin: 5px;
+    line-height: 42px;
+}
