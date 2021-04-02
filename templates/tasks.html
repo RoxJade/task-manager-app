@@ -9,8 +9,8 @@
             <div class="collapsible-header white-text red lighten-3 text-shadow">
                 <div class="col s3">
                     <i class="fas fa-caret-down"></i>
-                    <a href="" class="btn-small red accent-4">Done</a>
-                    <a href="" class="btn-small light-blue lighten-1">Edit</a>
+                    <a href="" class="btn-small waves-effect waves-light red lighten-2">Done</a>
+                    <a href="{{ url_for('edit_task', task_id=task._id) }}" class="btn-small waves-effect waves-light teal lighten-3">Edit</a>
                 </div>
                 <div class="col s9">
                     <strong>{{ task.task_name }}</strong> : {{ task.due_date }}
